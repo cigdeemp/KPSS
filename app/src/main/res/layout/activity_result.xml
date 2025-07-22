@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E6F0F8"
+    android:padding="16dp">
+
+    <!-- Sonuç Paneli -->
+
+    <!-- Butonlar -->
+    <!-- Sonuç Paneli -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6F4E9"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtTotalQuestionsR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOPLAM"
+            android:textColor="#070707"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCorrectR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOĞRU : "
+            android:textColor="#070707"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtWrongR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YANLIŞ :"
+            android:textColor="#070707"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtResultR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PUAN :"
+            android:textColor="#070707"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStartNewQuiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#EDE9D7"
+        android:padding="15dp"
+        android:text="YENİ SINAV"
+        android:textColor="#070707"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:translationZ="5dp"
+        android:outlineProvider="background"
+        android:clipToOutline="true" />
+
+    <Button
+        android:id="@+id/btnAnaEkran"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#EDE9D7"
+        android:padding="15dp"
+        android:text="ANA EKRAN"
+        android:textColor="#070707"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:translationZ="5dp"
+        android:outlineProvider="background"
+        android:clipToOutline="true" />
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- Üst Kısım Başlık -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="#FF7043"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/upper_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KPSS SORU UYGULAMASI"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Butonları Ortalamak İçin -->
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_turkce"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FF7043"
+            android:text="Türkçe"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_matematik"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FF7043"
+            android:text="Matematik"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_tarih"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FF7043"
+            android:text="Tarih"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_cografya"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FF7043"
+            android:text="Coğrafya"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_vatandaslik"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FF7043"
+            android:text="Vatandaşlık"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_guncel"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FF7043"
+            android:text="Güncel"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_quiz"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FF7043"
+            android:text="Quiz"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

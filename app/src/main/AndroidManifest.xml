@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/osym"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/osym"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KPSS_3"
+        tools:targetApi="35">
+
+        <!-- Ana Başlatıcı Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Quiz Activity -->
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true" />
+
+        <!-- Sonuç Ekranı -->
+        <activity
+            android:name=".Result"
+            android:label="Sonuç Ekranı"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true" />
+
+        <activity android:name=".Geography" android:exported="true" />
+        <activity android:name=".Guncel" android:exported="true" />
+        <activity android:name=".History" android:exported="true" />
+        <activity android:name=".Matematik" android:exported="true" />
+        <activity android:name=".Turkish" android:exported="true" />
+        <activity android:name=".Vatandaslik" android:exported="true" />
+
+    </application>
+
+</manifest>
